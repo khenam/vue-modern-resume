@@ -7,10 +7,10 @@
       <avatar />
       <div class="text-sm-center mb-4 mt-3">
         <h1>
-          Amirreza <span class="light-blue--text text--lighten-3">Nasiri</span>
+          Ronald <span class="light-blue--text text--lighten-3">Lima</span>
         </h1>
         <span>
-          A challenge-loving web developer
+          A passionate about solving real life problems
         </span>
       </div>
 
@@ -40,13 +40,13 @@
               >
                 <v-flex
                   :key="i"
-                  md3
+                  md4
                   sm4
                   xs6
                 >
                   <v-progress-circular
                     rotate="360"
-                    size="65"
+                    size="85"
                     width="2"
                     :value="item.value"
                     color="white"
@@ -79,22 +79,17 @@ export default {
             {
               name: 'Email',
               icon: 'mdi-email',
-              text: 'hi@amirreza.in',
-            },
-            {
-              name: 'Website',
-              icon: 'mdi-web',
-              text: 'amirreza.in',
+              text: 'ssa.ronald@gmail.com',
             },
             {
               name: 'Birth Date',
               icon: 'mdi-cake-variant',
-              text: 'Dec 7, 1996',
+              text: 'Apr 22, 1983',
             },
             {
               name: 'Habitation',
               icon: 'mdi-map-marker',
-              text: 'Tabriz, Iran',
+              text: 'Salvador-Ba, Brazil',
             },
           ],
         },
@@ -103,46 +98,29 @@ export default {
           items: [
             {
               icon: 'mdi-github-circle',
-              text: 'github.com/AmirrezaNasiri',
-              link: 'https://github.com/AmirrezaNasiri',
+              text: 'github.com/khenam',
+              link: 'https://github.com/khenam',
             },
             {
               icon: 'mdi-linkedin-box',
-              text: 'linkedin.com/in/amirreza-nasiri',
-              link: 'https://linkedin.com/in/amirreza-nasiri',
+              text: 'linkedin.com/in/ronaldlima',
+              link: 'https://linkedin.com/in/ronaldlima',
             },
             {
               icon: 'mdi-twitter',
-              text: 'twitter.com/Amirreza_Nasiri',
-              link: 'https://twitter.com/Amirreza_Nasiri',
+              text: 'twitter.com/khenam',
+              link: 'https://twitter.com/khenam',
             },
             {
-              icon: 'mdi-instagram',
-              text: 'instagram.com/amirreza.n96',
-              link: 'https://instagram.com/amirreza.n96',
+              icon: 'mdi-facebook',
+              text: 'facebook.com/khenam',
+              link: 'https://www.facebook.com/khenam',
             },
           ],
         },
         hobbies: {
           title: 'HOBBIES',
           items: [
-
-            {
-              icon: 'mdi-bullseye',
-              text: 'Getting out of Safe Zone',
-            },
-            {
-              icon: 'mdi-biohazard',
-              text: 'Challenges',
-            },
-            {
-              icon: 'mdi-bike',
-              text: 'Cycling',
-            },
-            {
-              icon: 'mdi-image-filter-hdr',
-              text: 'Nature',
-            },
             {
               icon: 'mdi-auto-fix',
               text: 'Hacking Stuffs',
@@ -152,24 +130,28 @@ export default {
               text: 'Teaching',
             },
             {
-              icon: 'mdi-karate',
-              text: 'Sports',
-            },
-            {
               icon: 'mdi-music',
               text: 'Music',
             },
             {
-              icon: 'mdi-account-group',
-              text: 'Leadership',
+              icon: 'mdi-video-vintage',
+              text: 'Movie',
             },
             {
-              icon: 'mdi-book-open-page-variant',
-              text: 'Books',
+              icon: 'mdi-play',
+              text: 'Series/streaming',
             },
             {
-              icon: 'mdi-android-debug-bridge',
-              text: 'Tickling Bugs!',
+              icon: 'mdi-robot',
+              text: 'Animes',
+            },
+            {
+              icon: 'mdi-star-four-points',
+              text: 'Spiritual Improvement',
+            },
+            {
+              icon: 'mdi-alien',
+              text: 'Ancient Aliens',
             },
           ],
         },
@@ -181,16 +163,8 @@ export default {
               value: 70,
             },
             {
-              text : 'Turkish',
-              value: 45,
-            },
-            {
-              text : 'Azeri',
-              value: 100,
-            },
-            {
-              text : 'Persian',
-              value: 100,
+              text : 'Portuguese',
+              value: 99,
             },
           ],
         },
