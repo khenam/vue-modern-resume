@@ -87,6 +87,11 @@ export default {
               text: 'Apr 22, 1983',
             },
             {
+              name: 'Wedding Date',
+              icon: 'mdi-diamond-stone',
+              text: 'Oct 21, 2017',
+            },
+            {
               name: 'Habitation',
               icon: 'mdi-map-marker',
               text: 'Salvador-Ba, Brazil',
@@ -97,12 +102,12 @@ export default {
           title: 'SOCIALS',
           items: [
             {
-              icon: 'mdi-github-circle',
+              icon: 'mdi-github',
               text: 'github.com/khenam',
               link: 'https://github.com/khenam',
             },
             {
-              icon: 'mdi-linkedin-box',
+              icon: 'mdi-linkedin',
               text: 'linkedin.com/in/ronaldlima',
               link: 'https://linkedin.com/in/ronaldlima',
             },

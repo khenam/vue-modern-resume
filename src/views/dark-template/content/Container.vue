@@ -6,9 +6,19 @@
     <v-card-text>
       <content-section
         title="Who am I?"
+        class="who-am-i"
       >
-        I'm a developer born in Iran and founder of <a href="http://delix.ir/?utm_source=portiflo&utm_medium=link&utm_content=intro&utm_campaign=delix">Delix.ir</a>, <a href="https://bytegate.ir/?utm_source=portiflo&utm_medium=link&utm_content=intro&utm_campaign=bytegate">Bytegate.ir</a> and <a href="http://bobet.ir/?utm_source=portiflo&utm_medium=link&utm_content=intro&utm_campaign=bobet">Bobet.ir</a> and co-founder of <a href="https://smo.li/?utm_source=portiflo&utm_medium=link&utm_content=intro&utm_campaign=smoli">Smo.li</a>.<br>
-        I'm interested and skilled in different topics of Information Technology including programming, web development, and computer and network security.
+        I am passionate about the profession and enthusiastic about new technologies.
+        I have a solid professional career of more than {{ experienceYears }} years in the technology area,
+        working as a 'software engineer'.
+        With academic background in Mechatronics Engineering, participation in project development,
+        implementation and maintenance of computer systems, with an article published by (IEEE).
+        I have several professional development courses, aiming mainly to simplify the use of
+        technologies in the area of telecommunications with purposes for the benefit of life.
+        Since I was a college student taking care of the IEEE student branch, i knew how to take
+        advantage of all the experiences and thus guarantee today's professional with success in the
+        development of computerized tools, microcontroller programming, communications protocols,
+        test development and product validation.
       </content-section>
       <content-section
         v-if="prouds"
@@ -118,33 +128,28 @@ export default {
   data      : () => ({
     prouds: [
       {
-        icon  : 'mdi-help-rhombus-outline',
-        text  : 'Answered 10M+ questions!',
-        source: '(Bytegate.ir post views)',
+        icon  : 'mdi-source-branch-plus',
+        text  : 'Founding member of the IEEE - FTC student branch',
+        source: '(IEEE records)',
       },
       {
-        icon  : 'mdi-library-music',
-        text  : 'Made people enjoy and learn a new language for equivalent of 29+ years (older than myself!)',
-        source: '(Bobet.ir and its channel downloads)',
-      },
-      {
-        icon  : 'mdi-timer-sand',
-        text  : 'Saved +110 days of time of students, writers and etc!',
-        source: '(Delix.ir service usages)',
+        icon  : 'mdi-volleyball',
+        text  : 'Design and develop rechargeable handball ball for the blind',
+        source: '(IEEE-FTC student branch records)',
       },
       {
         icon  : 'mdi-account-multiple',
-        text  : 'Tried to cover small part of 7 people expenses.',
-        source: '(My awesome colleagues)',
+        text  : 'Mentoring fantastic developers at nTopus Tecnologia',
+        source: '(My wonderful colleagues and friends in nTopus)',
       },
     ],
     educations: [
       {
-        from       : '2015',
-        to         : '2019 (not finished yet)',
-        title      : 'Bachelor\'s degree, Information Technology',
-        location   : 'Seraj University',
-        description: 'Became a member of University Academic Association of Computer Science',
+        from       : '2003',
+        to         : '2010',
+        title      : 'Bachelor\'s degree, Mechatronics Engineering',
+        location   : 'Faculdade de Tecnologia e Ciências da Bahia',
+        description: 'Became a bachelor in  Mechatronics Engineering',
       },
     ],
     skills: [
@@ -223,6 +228,12 @@ export default {
       },
     ],
   }),
+  computed: {
+    experienceYears: function () {
+      const d = new Date()
+      return d.getFullYear() - 2005
+    },
+  },
 }
 </script>
 
@@ -230,6 +241,10 @@ export default {
 .title {
   border-bottom: 2px #bfbfbf solid;
   line-height: 1.5 !important;
+}
+.who-am-i {
+  text-align: justify;
+  text-justify: auto;
 }
 .progress {
   margin-top: 0.1rem;
