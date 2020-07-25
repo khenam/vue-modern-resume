@@ -130,61 +130,51 @@ export default {
       {
         detailed   : true,
         transparent: true,
-        year       : '1996',
-        title      : 'Born on Dec 7, 1996',
-        html       : 'With a chance of %0.00000000000512.<br>I\'m completely aware of value of the life!',
+        year       : '1983',
+        title      : 'Born on Apr 22, 1983',
+        html       : 'With a chance lower than %0.00000000000512.<br>I\'m reborn practically without life, purple, and come back!',
         icon       : 'mdi-cake-variant',
       },
       {
         detailed   : true,
         transparent: true,
-        year       : '2003',
-        title      : 'Touched a Mouse',
-        html       : 'ME: "Woooow!"<br><i>... Of course got slapped later!</i>',
+        year       : '1990',
+        title      : 'Touched a electronic tv circuit',
+        html       : 'ME: "HUM...!"<br><i>... Whats is inside and what is this lines!</i>',
+        icon       : 'mdi-source-commit',
+      },
+      {
+        detailed   : true,
+        transparent: true,
+        year       : '1993',
+        title      : 'See a code for the first time',
+        html       : 'ME: "texts?"<br><i>... For what exactly!?</i>',
         icon       : 'mdi-mouse-variant',
       },
       {
         detailed   : true,
-        year       : '2009',
+        year       : '1998',
         transparent: true,
-        title      : 'Started an7.mahblog.com',
+        title      : 'Work for free in exchange for computer courses',
         html       : `
                 <p>
-                    I'm still emotional about this one. It was August 9, 2009 that I decided to start blogging so <a target="_blank" href="https://web.archive.org/web/20090819185659/http://an7.mahblog.com/">an7.mahblog.com</a> has just showed up! Years later, Mahblog.com got censored in Iran and my blog disappeared. <a target="_blank" href="https://web.archive.org/web/20120626234739/http://www.an7.mahblog.com/">Last archived page</a> was on June 26, 2012.
+                    At this point in my life, my desire to learn was so intense that I managed to do an internship. After completing a microcomputer maintenance course, I offered to work in exchange for being able to attend the other courses that were offered.
                 </p>
                 <p>
-                    Back then, my blog used to get more than 500 visitors/day and its Page Rank has reached to level 2 which was actually great! Rest In Peace an7 ...
-                </p>
-                <p>
-                    During 2009 - 2011, many other blogs has been created too. For example:
-                    <ul>
-                        <li>
-                            <a href="https://web.archive.org/web/20100926063748/http://bro2gifs.mihanblog.com/post/5">bro2gifs.mihanblog.com</a> - we were receiving banner designing orders there!
-                        </li>
-                        <li>
-                            <a href="https://web.archive.org/web/20101203082548/http://kdabs.mihanblog.com/">kdabs.mihanblog.com</a> - we were publishing audio books there
-                        </li>
-                        <li>
-                            <a href="http://web.archive.org/web/20100909150338/http://best1shops.mihanblog.com/">best1shops.mihanblog.com</a> - it was our first online shop and we got our first income from there. The feeling of that moment was awesome!
-                        </li>
-                        <li>
-                            And many other blogs I can't really remember!
-                        </li>
-                    </ul>
+                    At that time I studied in the morning at the engineering school in Bahia (EEEMBA), interned in the afternoon and attended the courses at night.
                 </p>
         `,
-        image      : 'img/timeline/an7.mahblog.com.png',
+        image      : 'img/timeline/eeemba-1998.jpg',
         imageHeight: 200,
-        icon       : 'mdi-web',
+        icon       : 'mdi-teach',
       },
       {
         detailed   : true,
-        year       : '2009',
+        year       : '2002',
         transparent: true,
-        title      : 'Created Almas-Khor Game',
-        html       : 'A simple (yet almost unbeatable!) game made with Game Maker. It\'s still available for <a target="_blank" href="https://download.tebyan.net/2687/%D8%A8%D8%A7%D8%B2%DB%8C-%D8%A7%D9%84%D9%85%D8%A7%D8%B3-%D8%AE%D9%88%D8%B1">download here</a>!<br>The reason this game is pretty important for me is that it was my first published program!',
-        image      : 'img/timeline/almas-khor.jpg',
-        iconImage  : 'img/timeline/almas-khor-icon.png',
+        title      : 'Knew mechatronic engineering',
+        html       : 'That moment was where I was able to discover that theory and practice go together, and that the subjects learned in college can be applied to something real, physical. My first robot was born, writing words typed on a computer, or plotting a graph of an x function.',
+        icon       : 'mdi-teach',
       },
       {
         detailed   : true,
@@ -222,24 +212,13 @@ export default {
         icon: 'mdi-desktop-classic',
       },
       {
-        year : '2013',
-        title: 'Founded Bytegate.ir',
+        year : '2008',
+        title: 'Programmer',
         html : `
-                    <p>
-                        Current status: <span class="green--text accent-4">Active</span>,
-                        Team: <span class="">1-5 person(s) (variable)</span>
-                    </p>
-                    <p>
-                        The main goal of <a target="_blank" href="https://bytegate.ir/?utm_source=portiflo&utm_medium=link&utm_content=timeline&utm_campaign=bytegate">Bytegate.ir</a> is to extend IT-related articles in Persian web with pretty easy-to-understand and picture-driven articles.
-                    </p>
-                    <p>
-                        The reason I founded Bytegate.ir was because of a dispute about computer stuffs back in school. Soon, I realized that I know NOTHING about computers! Bytegate.ir is the place I've started learning amazing things.
-                    </p>
-                    <p>
-                        Currently there are 600+ articles on the website which helps 4000+ people each day. It's been helping 4 people to cover small part of their expenses.
-                   </p>`,
-        image    : 'img/timeline/bytegate.ir.jpg',
-        iconImage: 'img/timeline/bytegate.ir-icon.png',
+                    <p>Construction of Supervisory Systems in C ++ Language, Elipse Scada and participation in the construction of embedded Microcontrolled systems (RENESAS, PIC, Zilog), and proprietary protocol.</p>
+                    <p>Implementation of ERP TOTVS RM (RMNucleus, RM Bonum, RM Officina, RM Solum, RM Chronus, RM BIS, etc.). Specialization in building non-native blocking system triggers, preventing inclusion / alteration in the system as needed.</p>
+        `,
+        iconImage: 'img/timeline/kofre-icon.png',
       },
       {
         detailed   : true,
