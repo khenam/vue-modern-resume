@@ -178,38 +178,40 @@ export default {
       },
       {
         detailed   : true,
-        year       : '2011',
+        year       : '2004',
         transparent: true,
-        title      : 'Fished Mobsters!',
+        title      : 'First Big Event of IEEE - FTC student branch',
         html       : `
           <p>
-            Oh shouldn't I include this one?! whatever ...<br>
-            It was 2011 and I'd been addicted to a game called Street Mobsters. On its IR server, which is still available on <a target="_blank" href="https://web.archive.org/web/20111005204247/https://mobgangs.com/">mobgangs.com</a>, I decided to perform a phishing attack and harvest credentials of in-game wealthy people.
+            Being created in the same year, the Bahia session of the IEEE encouraged its student branches to create an event that served to stimulate and encourage educational institutions to learn about the organization and the benefits inherent to it.
           </p>
           <p>
-            I hosted a page similar to this one and published it inside the game via various mediums. To be honest, I didn't expect any result but about 40 people had given me their username and passwords! among them, I selected wealthiest ones and ... you know rest of the story just add a Robin Hood at the end!
+            With this, a joint event was created involving several educational institutions to "Gerra de Robots Salvador" similar to BattleBots.
           </p>
           <p>
-            This was the moment I realized how it is easy to actually get misused especially on the net.
+            My participation was in the creation of the student branch and in the organization of the event.
+          </p>
+          <p>
+            In 2005 I was able to help again and the event evolved and became a technological olympiad, with more modalities, such as robot sumo, Lego line follower
           </p>
         `,
-        image    : 'img/timeline/street-mobsters.jpg',
-        iconImage: 'img/timeline/street-mobsters-icon.png',
+        image    : 'img/timeline/olimpiada-tecnologica-2005.jpeg',
+        iconImage: 'img/timeline/marca_ftc_ieee-2004.jpg',
       },
       {
         detailed   : true,
-        year       : '2012',
+        year       : '2006',
         transparent: true,
-        title      : 'Created a Botnet',
+        title      : 'First chance to show my work away from home',
         html       : `
                 <p>
-                    A VB6-based (yes you read it correctly! Visual Basic 6) botnet with dynamic C&Cs on Blogfa.com and many zombies. Just kidding, there were 3 infected PCs only!
+                  Up until this moment, I have always had the chance to train the skills learned in the company that my parents had, creating spreadsheets with VBA codes on them, creating mini applications to help with controls and day-to-day operations of the company, but over time the skills learned in college had no space there.
                 </p>
                 <p>
-                    It was initially created to perform fraud clicks on one of PPC ads on one of my old blogs. It was designed in a way that the advertiser would not be able to detect the fraud easily.
+                  Thanks to having contact with friends and colleagues at these events, I had the opportunity to be invited to work at Kofre Telecomunicações as an intern, beginning my journey of applying all my knowledge.
                 </p>
                 `,
-        icon: 'mdi-desktop-classic',
+        iconImage: 'img/timeline/kofre-icon.png',
       },
       {
         year : '2008',
@@ -221,65 +223,19 @@ export default {
         iconImage: 'img/timeline/kofre-icon.png',
       },
       {
-        detailed   : true,
-        year       : '2014-15',
-        transparent: true,
-        title      : 'Created a Captcha Solving Farm',
-        /* eslint-disable no-useless-escape */
-        html       : `
-                <p>
-                    I was inspired by a blog post about captcha solving techniques and made my own captcha solving farm and built some basic APIs for <span style="background-color: #d1d1d1;">/(bad)?/g</span> guys to use it.
-                </p>
-                <p>
-                    It was initially created to make me millionaire (!) however, it was never even published since I couldn't find a way to receive money from outside of Iran. It was a stupid attempt in fact! 🤦‍♂️
-                </p>
-                `,
-        /* eslint-enable no-useless-escape */
-        icon: 'mdi-worker',
-      },
-      {
-        year       : '2015',
-        transparent: true,
-        title      : 'Created WifiShield',
-        html       : `
-          <p>
-              Current status: <span class="red--text darken-3">Failed</span>,
-              Team: <span class="">1</span>
-          </p>
-          <p>
-            WifiShield supposed to be a network security application to find vulnerabilities in Wi-Fi networks and fix them by manipulating through their actual configuration user interface.          </p>
-          <p>
-            It was basically a web crawler which is designed to go to default gateway (192.168.1.1 or whatever it was configured) page and interact with its user interfec following predefined action sets.
-          </p>
-          <p>
-            <span class="red--text darken-3">Failing Reason</span>:
-             The main problem with this application was that, I wasn't able to gather all possible firmware/emulators of devices of even a single brand. And of course, every version of a specific models may come in a different firmware version and thus different UI. I've only defined action sets for my own access points and left it as is.
-          </p>
-        `,
-        image    : 'img/timeline/wifi-shield.png',
-        iconImage: 'img/timeline/wifi-shield-icon.png',
-      },
-      {
-        year : '2016',
-        title: 'Founded Bobet.ir',
+        year : '2011',
+        title: 'Coordenador de TI',
         html : `
           <p>
-              Current status: <span class="orange--text lighten-1">Taking last breaths</span>,
-              Team: <span class="">1-6 person(s) (variable)</span>
           </p>
           <p>
-              The purpose of <a target="_blank" href="http://bobet.ir/?utm_source=portiflo&utm_medium=link&utm_content=timeline&utm_campaign=bobet">Bobet.ir</a> is to let people learn English and Turkish languages in a different way by listening to musics with their lyrics, Persian translations and pronunciations of the actual lyric in Persian letters. The website reached 9000 visits/day. More than 270+ musics with contents are published there.
           </p>
           <p>
-              The reason behind founding Bobet.ir was pretty simple: testing Google SEO patterns related to musics. But suddenly, it grew up so fast we decided to pivot and work on it as a real project.
           </p>
           <p>
-            <span class="orange--text lighten-1">Failing Reason</span>:
-             A year later, it got censored in Iran (since women voice in musics are illegal here!) and the stats dropped suddenly. Before then, it had helped 5 people to cover some pieces of their expenses and had helped <a target="_blank" href="https://mahak-charity.org/main/index.php/fa/">Mahak Charity</a> to receive some donations by promoting it.
           </p>
         `,
-        image    : 'img/timeline/bobet.ir.jpg',
-        iconImage: 'img/timeline/bobet.ir-icon.png',
+        iconImage: 'img/timeline/kofre-icon.png',
       },
       {
         year       : '2017',
