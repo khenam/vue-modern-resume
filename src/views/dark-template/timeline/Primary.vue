@@ -235,7 +235,7 @@ export default {
           <p>
             We did all the development in c and c ++, as well as a little assembler.
           </p>
-          <p>
+          <p style="font-size: 60%">
             I take this opportunity to thank you Ivan Mascarenhas for being so generous and being a mainspring for my professional growth.
           </p>
         `,
@@ -245,12 +245,20 @@ export default {
         year : '2011',
         title: 'IT Coordinator',
         html : `
-          <p>Implementation of ERP TOTVS RM (RMNucleus, RM Bonum, RM Officina, RM Solum, RM Chronus, RM BIS, etc.). Specialization in building non-native blocking system triggers, preventing inclusion / alteration in the system as needed.</p>
           <p>
+            The company was growing, at that time still had the opportunity to develop to help in the implementation of the company's ERP (TOTVS RM). As this process allowed me to be close to several sectors in a short period of time, it was a natural move to receive a promotion and lead the company's IT direction.
           </p>
           <p>
+            We assume the implementation of all modules active at the time, RM Nucleus, RM Bonum, RM Officina, RM Solum, RM Chronus, RM BIS, etc.). We help with various activities, trying to align existing procedures with system resources, in addition to suggesting changes in others.
           </p>
           <p>
+            I developed a portal in PHP (Yii Framework) integrated to the company's AD (Active Directory), to deal with very common ERP query operations that made processes more dynamic, because, unfortunately, the system was not so fast and practical, mainly the user profile dependency. This portal allowed us to reduce the number of licenses, generating significant savings and allowed us to grow more organically.
+          </p>
+          <p>
+            An important point at the time was that the server structure was incompatible with the size of the company; we set up a project to expand and virtualize servers using VMware esxi.
+          </p>
+          <p>
+            Thanks to the large volume of parallel and new actions for everyone, it was my first contact with the Scrum methodology, which we tried to implement in the area.
           </p>
         `,
         iconImage: 'img/timeline/kofre-icon.png',
