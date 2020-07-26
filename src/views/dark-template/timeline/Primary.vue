@@ -301,10 +301,9 @@ export default {
         icon: 'mdi-head-dots-horizontal-outline',
       },
       {
-        year       : '2014',
-        transparent: true,
-        title      : 'Architect Developer',
-        html       : `
+        year : '2014',
+        title: 'Architect Developer',
+        html : `
           <p>
             Also in 2013, I was invited as a consultant to identify a project that won a startups competition. The summary was: "<a target="_blank" href="https://www.repplica.com.br">Repplica</a> is a solution for Resellers and Dealers that optimizes the management of ads in the various classifieds in the country. Register your stock in our system and watch your cars be replicated automatically in the largest automotive sites on the Internet, such as: iCarros , Webmotors and other portals ".
           </p>
@@ -329,6 +328,27 @@ export default {
         `,
         image    : 'img/timeline/integracao-portais-automotivos.png',
         iconImage: 'img/timeline/repplica.png',
+      },
+      {
+        detailed   : true,
+        year       : '2015',
+        transparent: true,
+        title      : 'Testing Learning',
+        html       : `
+          <p>
+            Still at Repplica, I had the opportunity to have a 1 month trial period at Jusbrasil. Thanks to the good relationship that I have cultivated over the years, it was possible for me to test my skills in the crowller team.
+          </p>
+          <p>
+            It was a punch in the stomach, to notice how far I was still in the process of improving my skills, but it was revealing and magical at the same time, I could see the infrastructure, how the services' communication mechanisms worked, how they were monitored, etc.
+          </p>
+          <p>
+            Unfortunately it had not been a good time to have joined, as there were other hires happening in parallel, and I had no experience at the level of those who were coming, so I had to make the most of all the knowledge shared with me that month.
+          </p>
+          <p>
+            There, it was very good to have contact with Java again. In addition, I was introduced to other concepts that my academic background had not allowed me to have contact with, such as functional programming, and to practice some of it in Scala language, for example.
+          </p>
+        `,
+        icon: 'mdi-head-dots-horizontal-outline',
       },
       {
         year : '2015',
