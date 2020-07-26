@@ -218,7 +218,7 @@ export default {
         title: 'Programmer',
         html : `
           <p>
-            Since 2006 when I joined Kofre I have been able to notice the growth of the Research and Development sector, also called in the company "project". I still feel very honored to be able to help consolidate this sector in the company.
+            Since 2006 when I joined <a target="_blank" href="http://www.kofre.com.br">Kofre</a> I have been able to notice the growth of the Research and Development sector, also called in the company "project". I still feel very honored to be able to help consolidate this sector in the company.
           </p>
           <p>
             It was wonderful to be able to create products and improve others.
@@ -306,19 +306,25 @@ export default {
         title      : 'Architect Developer',
         html       : `
           <p>
-              Current status: <span class="red--text darken-3">Failed</span>,
-              Team: <span class="">1</span>
+            Also in 2013, I was invited as a consultant to identify a project that won a startups competition. The summary was: "<a target="_blank" href="https://www.repplica.com.br">Repplica</a> is a solution for Resellers and Dealers that optimizes the management of ads in the various classifieds in the country. Register your stock in our system and watch your cars be replicated automatically in the largest automotive sites on the Internet, such as: iCarros , Webmotors and other portals ".
           </p>
           <p>
-            <a target="_blank" href="http://t.me/Telepad_Bot">Telepad</a> was a Telegram assistant bot which helped channel owners to manage their posts easily by scheduling posts, instant editing, ready-to-be-published post suggestions and administrators' role management.
+            In that invitation, the main question they wanted me to answer was whether the project was scalable or how it could become. And so began a mentoring process with the developers, culminating in my dissatisfaction with my situation at the previous company.
           </p>
           <p>
-            The reason behind founding it was personal usage. It was initially created to make Bobet.ir publishing process easier but I decided to let others use it too.
+            With that in 2014, my dedication was entirely to helping to restructure the project to be truly scalable. Having a base made in PHP and with developers with little experience in other languages, we work to extract as much as possible.
           </p>
           <p>
-            <span class="red--text darken-3">Failing Reason</span>:
-             Well, I was alone and couldn't handle its development since I'd been working on other projects too.<br />
-             Starting from there, slowly, I understood the actual value of having a team and focusing on a specific business.
+            The project helped in this regard, as the operational process was basically to synchronize information from our registry and convert it into integrated platforms. At that time, the response time of the platforms allowed us not to need a very performative language, enabling the project's growth in PHP without problems in the short and medium term.
+          </p>
+          <p>
+            The process of redesigning the solution ranged from using Gluster to centralize and facilitate backups and other maneuvers on the platform, to the conversion mechanisms of the storage model in translators specific to the target platforms.
+          </p>
+          <p>
+            Our synchronizers varied in implementation and, in some cases, were consumers of REST and SOAP APIs, and even with crowler features, accessing the portal as if it were the end user and performing operations.
+          </p>
+          <p>
+            There was a movement in the automotive segment of tools similar to Repplica that larger companies started to buy them, and it was no different with us. In 2015 with the purchase process made by <a target="_blank" href="http://www.searchoptics.com.br">Search Optics</a>, I retired from the project and followed another path, with a focus on improving my skills.
           </p>
         `,
         image    : 'img/timeline/integracao-portais-automotivos.png',
