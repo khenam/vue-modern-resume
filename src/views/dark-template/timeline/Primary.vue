@@ -172,7 +172,7 @@ export default {
         detailed   : true,
         year       : '2002',
         transparent: true,
-        title      : 'Knew mechatronic engineering',
+        title      : 'I met mechatronic engineering',
         html       : 'That moment was where I was able to discover that theory and practice go together, and that the subjects learned in college can be applied to something real, physical. My first robot was born, writing words typed on a computer, or plotting a graph of an x function.',
         icon       : 'mdi-teach',
       },
@@ -204,27 +204,60 @@ export default {
         transparent: true,
         title      : 'First chance to show my work away from home',
         html       : `
-                <p>
-                  Up until this moment, I have always had the chance to train the skills learned in the company that my parents had, creating spreadsheets with VBA codes on them, creating mini applications to help with controls and day-to-day operations of the company, but over time the skills learned in college had no space there.
-                </p>
-                <p>
-                  Thanks to having contact with friends and colleagues at these events, I had the opportunity to be invited to work at Kofre Telecomunicações as an intern, beginning my journey of applying all my knowledge.
-                </p>
-                `,
+          <p>
+            Up until this moment, I have always had the chance to train the skills learned in the company that my parents had, creating spreadsheets with VBA codes on them, creating mini applications to help with controls and day-to-day operations of the company, but over time the skills learned in college had no space there.
+          </p>
+          <p>
+            Thanks to having contact with friends and colleagues at these events, I had the opportunity to be invited to work at Kofre Telecomunicações as an intern, beginning my journey of applying all my knowledge.
+          </p>
+        `,
         iconImage: 'img/timeline/kofre-icon.png',
       },
       {
         year : '2008',
         title: 'Programmer',
         html : `
-                    <p>Construction of Supervisory Systems in C ++ Language, Elipse Scada and participation in the construction of embedded Microcontrolled systems (RENESAS, PIC, Zilog), and proprietary protocol.</p>
-                    <p>Implementation of ERP TOTVS RM (RMNucleus, RM Bonum, RM Officina, RM Solum, RM Chronus, RM BIS, etc.). Specialization in building non-native blocking system triggers, preventing inclusion / alteration in the system as needed.</p>
+          <p>
+            Since 2006 when I joined Kofre I have been able to notice the growth of the Research and Development sector, also called in the company "project". I still feel very honored to be able to help consolidate this sector in the company.
+          </p>
+          <p>
+            It was wonderful to be able to create products and improve others.
+          </p>
+          <p>
+            I created an application that was used to configure equipment that already existed in the company, created by the area that I came to add. This equipment allowed it to be possible to generate a behavior similar to a computer network hub, but with analog radios.
+          </p>
+          <p>
+            Another fantastic project was a modem capable of transferring data over analog radios. My main function was to create an application to configure this equipment, allowing it to be adjusted to work in different conditions. A nice point to highlight was that I was able to help optimize the code that ran onboard. At that time we used a microcontroller that had a known and reported problem by the manufacturer (it was normal to skip a line of code depending on the situation), we simulated the conditions and modified the code so that even in these conditions it was able to maintain the correct behavior.
+          </p>
+          <p>
+            The last and most important project done by the sector was a Programmable logic controller (PLC). We considered everything we had learned over the years, we selected a more robust microcontroller including electromagnetic interference. My main role in this project was to build a supervisory system to be used wherever the equipment was to operate. In addition, I created an application that was used to test and validate the equipment's operation once assembled and for simple drives. I worked together with a friend and partner, the same one that allowed me to help in the previous project, to create the communication and programming protocols, in addition to a mechanism that allowed defective codes to be recorded in the PLC, but it did not lock the same nor affect others blocks of code that were already working.
+          </p>
+          <p>
+            We did all the development in c and c ++, as well as a little assembler.
+          </p>
+          <p>
+            I take this opportunity to thank you Ivan Mascarenhas for being so generous and being a mainspring for my professional growth.
+          </p>
         `,
         iconImage: 'img/timeline/kofre-icon.png',
       },
       {
         year : '2011',
-        title: 'Coordenador de TI',
+        title: 'IT Coordinator',
+        html : `
+          <p>Implementation of ERP TOTVS RM (RMNucleus, RM Bonum, RM Officina, RM Solum, RM Chronus, RM BIS, etc.). Specialization in building non-native blocking system triggers, preventing inclusion / alteration in the system as needed.</p>
+          <p>
+          </p>
+          <p>
+          </p>
+          <p>
+          </p>
+        `,
+        iconImage: 'img/timeline/kofre-icon.png',
+      },
+      {
+        year : '2013',
+        title: 'ICT Coordinator',
         html : `
           <p>
           </p>
@@ -238,9 +271,9 @@ export default {
         iconImage: 'img/timeline/kofre-icon.png',
       },
       {
-        year       : '2017',
+        year       : '2014',
         transparent: true,
-        title      : 'Founded Telepad',
+        title      : 'Architect Developer',
         html       : `
           <p>
               Current status: <span class="red--text darken-3">Failed</span>,
@@ -258,152 +291,38 @@ export default {
              Starting from there, slowly, I understood the actual value of having a team and focusing on a specific business.
           </p>
         `,
-        image    : 'img/timeline/telepad.png',
-        iconImage: 'img/timeline/telepad-icon.png',
+        image    : 'img/timeline/integracao-portais-automotivos.png',
+        iconImage: 'img/timeline/repplica.png',
       },
       {
-        year : '2017',
-        title: 'Founded Delix.ir',
+        year : '2015',
+        title: 'Research and Development Manager',
         html : `
           <p>
-              Current status: <span class="green--text accent-4">Active</span>,
-              Team: <span class="">1</span>
           </p>
           <p>
-            <a target="_blank" href="http://delix.ir/?utm_source=portiflo&utm_medium=link&utm_content=timeline&utm_campaign=delix">Delix.ir</a> is an online image text extractor (OCR) and PDF to Word converter which is built to support Persian language especially. The service also provides APIs to implement its OCR engines into customers' own applications.
           </p>
           <p>
-            The reason I founded Delix.ir (<u>D</u>ocument <u>ELIXIR</u>) was because back in school, I found out that there is an unsolved need for this kind of services especially needed by teachers. However, it wasn't developed since 2017.
           </p>
           <p>
-            Currently, 3330+ people are using the service. It's still under development and we're going to change the strategy to support B2B market soon.
           </p>
         `,
-        image    : 'img/timeline/delix.ir.png',
-        iconImage: 'img/timeline/delix.ir-icon.png',
+        iconImage: 'img/timeline/kofre-icon.png',
       },
       {
-        detailed   : true,
-        transparent: true,
-        year       : '2018',
-        title      : 'A Turning Point',
-        html       : `
-          <p>
-          It looks like that 2018 is missing from my CV isn't it? <strong>NOT AT ALL!</strong>
-          </p>
-          <p>
-          This awesome year was a turning point in my life. I found out the reason why my businesses are not growing; what I'm doing wrong; what I've supposed to do and plenty of other thoughts.
-          </p>
-          <p>
-          Technically, I got familiar with and tried to be best (not yet of course!) at the following technologies:
-          <ul>
-          <li>git</li>
-          <li>Laravel</li>
-          <li>Vue.js</li>
-          <li>Arduino</li>
-          <li>Ubuntu</li>
-          <li>TTD and CI/CD</li>
-          <li>Development best practices</li>
-          <li>And more ...</li>
-          </ul>
-          </p>
-          <p>
-          So please don't underestimate this card by its height in pixels. It's worth a lot to me.
-          </p>
-
-        `,
-        icon: 'mdi-cake-variant',
-      },
-      {
-        year : '2019',
-        title: 'Open Sourced Telegram Web Bridge',
+        year : '2018',
+        title: 'CTO',
         html : `
           <p>
-              Current status: <span class="light-blue--text lighten-3">Open Sourced</span><br>Available on: <a target="_blank" href="https://github.com/AmirrezaNasiri/telegram-web-bridge">AmirrezaNasiri/telegram-web-bridge</a>
           </p>
           <p>
-            Telegram Web Bridge is a bidirectional, web-based, proxy-like application which can act as a middleman for Telegram Bot API requests (from your actual application to Telegram) and Webhooks (from Telegram to your actual application).
           </p>
           <p>
-            It was initially developed because of Telegram censorship in Iran and the need for it in a storage management software we've built. I decided to publish the codes so anyone with the same problem will be able to handle it.
+          </p>
+          <p>
           </p>
         `,
-        image: 'img/timeline/telegram-web-bridge.png',
-        icon : 'mdi-github-circle',
-      },
-      {
-        year : '2019',
-        title: 'Open Sourced USB Keystroke Injector',
-        html : `
-          <p>
-            Current status: <span class="light-blue--text lighten-3">Open Sourced</span><br>Available on: <a target="_blank" href="https://github.com/AmirrezaNasiri/usb-keystroke-injector">AmirrezaNasiri/usb-keystroke-injector</a>
-          </p>
-          <p>
-            An Arduino-based keyboard emulator which injects (i.e. types) a sequence of letters received via Bluetooth protocol or read from predefined SD card payloads. Demo GIF is available on the GitHub page.
-          </p>
-          <p>
-            It was initially a university project, made at 2018 but I decided to extend it a little bit and publish it on my GitHub.
-          </p>
-        `,
-        image: 'img/timeline/usb-keystroke-injector.png',
-        icon : 'mdi-github-circle',
-      },
-      {
-        year : '2019',
-        title: 'Co-Founded Smo.li',
-        html : `
-          <p>
-              Current status: <span class="green--text accent-4">Active</span>,
-              Team: <span class="">2</span>
-          </p>
-          <p>
-            <a target="_blank" href="https://smo.li/?utm_source=portiflo&utm_medium=link&utm_content=timeline&utm_campaign=smoli">Smoli</a> is a URL shortener and link tracking platform that also allows you to add eye-catching and branded call-to-actions to any page on the web. See a demo of Forbes campaign on Business News Daily: <a target="_blank" href="http://smo.li/+demo-forbes">smo.li/+demo-forbes</a>.
-          </p>
-          <p>
-            The service has been founded by <a target="_blank" href="https://www.linkedin.com/in/saeidhabibpour/">Saeid Habibpour</a> (CEO) and me (CTO). Currently, the MVP is ready and we're researching the market.
-          </p>
-        `,
-        image    : 'img/timeline/smo.li.png',
-        iconImage: 'img/timeline/smo.li-icon.png',
-      },
-      {
-        year : '2019',
-        title: 'Open Sourced This Resume',
-        html : `
-          <p>
-              Current status: <span class="light-blue--text lighten-3">Open Sourced</span><br>Available on: <a target="_blank" href="https://github.com/AmirrezaNasiri/vue-modern-resume">AmirrezaNasiri/vue-modern-resume</a>
-          </p>
-          <p>
-            A Vue.js-based and powered-by-Vuetify (material UI kit) resume template which you're seeing right now!
-          </p>
-        `,
-        image: 'img/timeline/vue-modern-resume.png',
-        icon : 'mdi-github-circle',
-      },
-      {
-        year : '2019',
-        title: 'Published Vue Registrar Package',
-        html : `
-          <p>
-              Current status: <span class="light-blue--text lighten-3">Published</span><br>Available on: <a target="_blank" href="https://github.com/AmirrezaNasiri/vue-registrar">AmirrezaNasiri/vue-registrar</a>
-          </p>
-          <p>
-            A Vue.js package that makes developers' code a lot cleaner and much more understandable. It's consisted of two features that:
-            <ul>
-                <li>Registers all your common and frequently used components globally and ends the need for importing them manually;</li>
-                <li>Assembles all your vuex modules in a nested manner.</li>
-            </ul>
-          </p>
-        `,
-        image    : 'img/timeline/vue-registrar-demo.png',
-        iconImage: 'img/timeline/vue-registrar-logo.png',
-      },
-      {
-        year : 'So far ...',
-        title: 'Written 340+ Unique Articles!',
-        html : `I'm the guy who loves teaching! So far, I've written 340+ unique articles which most of them are computer-related. You can access them here:
-                    <ul><li><a target="_blank" href="https://bytegate.ir/author/amirrezanasiri/">My posts on Bytegate.ir</a> (260+ Computer-related)</li><li><a target="_blank" href="http://bobet.ir/author/amirrezanasiri/">My posts on Bobet.ir</a> (80+ translations)</li></ul>`,
-        icon: 'mdi-fountain-pen-tip',
+        iconImage: 'img/timeline/marca-ntopus-full.jpg',
       },
     ],
   }),
