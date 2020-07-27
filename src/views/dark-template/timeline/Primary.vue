@@ -408,7 +408,7 @@ export default {
             This is a path that we are taking together, the tools and solution today are truly born together with the participation of the team in order to always listen to everyone's voice, as much as possible.
           </p>
         `,
-        image    : 'img/timeline/pdca_cycle.svg',
+        image    : 'img/timeline/pdca_cycle.png',
         iconImage: 'img/timeline/marca-ntopus-full.jpg',
       },
     ],
