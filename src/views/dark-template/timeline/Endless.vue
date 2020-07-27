@@ -4,68 +4,74 @@
     light
   >
     <v-card-text class="text-xs-center">
-      <h4>OK ... OK ... My CV has just been finished here but not my journey!</h4>
-      <div>Don't believe me? keep scrolling!</div>
-      <content-section>
-        <v-timeline>
-          <v-timeline-item
-            v-for="n in futurePage * 2"
-            :key="n"
-            icon=""
-            large
-          >
-            <template
-              v-slot:icon
-            >
-              <div class="fill-width">
-                <vue-content-loading
-                  :width="80"
-                  :height="95"
-                >
-                  <circle
-                    cx="40"
-                    cy="52"
-                    r="42"
-                  />
-                </vue-content-loading>
-              </div>
-            </template>
-
-            <vcl-code />
-          </v-timeline-item>
-        </v-timeline>
-      </content-section>
-      <div
-        v-if="toggleMessage"
-        class="ma-4"
-      >
-        <span
-          class="pre"
-        >{{ message.text }}</span>
-        <div
-          v-if="!loading"
-          v-scroll="scrolled"
-        />
-      </div>
-      <v-progress-circular
-        v-if="loading"
-        indeterminate
-        color="primary"
-      />
+      <a
+        target="_blank"
+        href="https://github.com/evryn/vue-modern-resume"
+      >Based on AmirrezaNasiri</a>
     </v-card-text>
+    <!--    <v-card-text class="text-xs-center">-->
+    <!--      <h4>OK ... OK ... My CV has just been finished here but not my journey!</h4>-->
+    <!--      <div>Don't believe me? keep scrolling!</div>-->
+    <!--      <content-section>-->
+    <!--        <v-timeline>-->
+    <!--          <v-timeline-item-->
+    <!--            v-for="n in futurePage * 2"-->
+    <!--            :key="n"-->
+    <!--            icon=""-->
+    <!--            large-->
+    <!--          >-->
+    <!--            <template-->
+    <!--              v-slot:icon-->
+    <!--            >-->
+    <!--              <div class="fill-width">-->
+    <!--                <vue-content-loading-->
+    <!--                  :width="80"-->
+    <!--                  :height="95"-->
+    <!--                >-->
+    <!--                  <circle-->
+    <!--                    cx="40"-->
+    <!--                    cy="52"-->
+    <!--                    r="42"-->
+    <!--                  />-->
+    <!--                </vue-content-loading>-->
+    <!--              </div>-->
+    <!--            </template>-->
+
+    <!--            <vcl-code />-->
+    <!--          </v-timeline-item>-->
+    <!--        </v-timeline>-->
+    <!--      </content-section>-->
+    <!--      <div-->
+    <!--        v-if="toggleMessage"-->
+    <!--        class="ma-4"-->
+    <!--      >-->
+    <!--        <span-->
+    <!--          class="pre"-->
+    <!--        >{{ message.text }}</span>-->
+    <!--        <div-->
+    <!--          v-if="!loading"-->
+    <!--          v-scroll="scrolled"-->
+    <!--        />-->
+    <!--      </div>-->
+    <!--      <v-progress-circular-->
+    <!--        v-if="loading"-->
+    <!--        indeterminate-->
+    <!--        color="primary"-->
+    <!--      />-->
+    <!--    </v-card-text>-->
   </v-card>
 </template>
 
 <script>
-import ContentSection from '@/views/dark-template/content/Section'
-import VueContentLoading, { VclCode } from 'vue-content-loading'
+// import ContentSection from '@/views/dark-template/content/Section'
+// import VueContentLoading, { VclCode } from 'vue-content-loading'
 import { debounce } from 'lodash'
 
 export default {
-  name      : 'EndlessTimeline',
-  components: {
-    ContentSection, VueContentLoading, VclCode,
-  },
+  name: 'EndlessTimeline',
+  // components: {
+  // ContentSection, VueContentLoading, VclCode,
+  // },
   data: () => ({
     futurePage   : 0,
     message      : '',

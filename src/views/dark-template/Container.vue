@@ -67,9 +67,11 @@ export default {
       document.getElementById('to-timeline'),
       document.getElementById('timeline'),
       {
-        size      : 2,
-        color     : this.$vuetify.theme.primary,
-        startLabel: LeaderLine.captionLabel('To the Journey ...'),
+        size              : 2,
+        startSocketGravity: 100,
+        endSocketGravity  : 90,
+        color             : this.$vuetify.theme.primary,
+        startLabel        : LeaderLine.captionLabel('To the Journey ...'),
       }
     )
   },

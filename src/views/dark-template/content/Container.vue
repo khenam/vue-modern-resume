@@ -282,6 +282,42 @@ export default {
       },
       { divider: true },
       {
+        title: 'Mysql/Percona',
+        icon : 'mdi-database',
+        value: 80,
+      },
+      {
+        title: 'ArangoDB',
+        icon : 'mdi-database-export',
+        value: 75,
+      },
+      {
+        title: 'MongoDB/Percona MongoDB',
+        icon : 'mdi-database-marker',
+        value: 70,
+      },
+      {
+        title: 'Redis',
+        icon : 'mdi-database-settings',
+        value: 70,
+      },
+      {
+        title: 'RabbitMQ',
+        icon : 'mdi-tray-full',
+        value: 65,
+      },
+      {
+        title: 'NATS/STAN',
+        icon : 'mdi-tray-full',
+        value: 60,
+      },
+      {
+        title: 'MQTT',
+        icon : 'mdi-tray-full',
+        value: 45,
+      },
+      { divider: true },
+      {
         title: 'Scrum',
         icon : 'mdi-account-switch',
         value: 88,

@@ -393,7 +393,7 @@ export default {
         title: 'CTO',
         html : `
           <p>
-            In 2018 the formal process of opening the company begins and we were born as a real startup. With that, the application needed improvements and optimizations. In the midst of striving to realize the value of our customers and improve the platform, we worked on several work fronts.
+            In 2018 the formal process of opening the <a target="_blank" href="http://www.ntopus.com.br">nTopus</a> as a company begins and we were born as a real startup. With that, the application needed improvements and optimizations. In the midst of striving to realize the value of our customers and improve the platform, we worked on several work fronts.
           </p>
           <p>
             Adding new vehicle tracker manufacturers and protocols, improving the reliability and robustness of our scanners, refining observability of our microservices, implementing tools for centralizing Log information, metrics and automating processes such as backups, time routines, and operations performed on devices remotely .
