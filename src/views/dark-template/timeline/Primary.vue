@@ -355,14 +355,37 @@ export default {
         title: 'Research and Development Manager',
         html : `
           <p>
+            As with cell phones, radio has been going through a digitization process, and many regulators are not allowing analog systems to be licensed. After having tested several tools, kofre approached me to start a project that aimed to democratize access to the resources that digitalization allowed for such equipment, such as GPS location, sending messages, situational signs, etc.
           </p>
           <p>
+            I started as a freelancer creating a Gateway made in C #, for having a better integration with the tools made by most radio and systems manufacturers (Motorola, SEPURA, DAM, Hytera). At first, we chose to build a prototype in which the manufacturer did not block its use, in a standardized open protocol (TETRA) that would guarantee high compatibility.
           </p>
           <p>
+            The project was presented with a very simple platform for demonstrating the data collected, and after that I was invited to return to the company to run an area that would create products for customers to use the resources made available by the radios, thus being born nTopus as a product and later as company.
           </p>
           <p>
+            We built the solution using everything that has been learned over the past few years. Microservices, queue services, relational and non-relational databases, Docker as a development base, Kubernetes, Cloud, etc.
+          </p>
+          <p>
+            Architecting the solution came with an extra challenge of using the cloud without surrendering and being blocked by it, since kofre's customer profiles, many do not have a good infrastructure to depend on the cloud, requiring that the solution could run on local physical servers in customers' data centers.
+          </p>
+          <p>
+            We updated the gateways to use the Go language, as it has a better way to work on a multiplatform, and the C # was not effective in terms of integration with the manufacturers, since Golang gives us enough tools and with less computational cost, in addition to being really multiplataform.
+          </p>
+          <p>
+            I worked on the construction of a communication protocol adhering to radio technology to transfer data (text files, spreadsheets, small images, etc.) with less overhead on the radio network and fewer packages.
+          </p>
+          <p>
+            We created a scanner that allows us to provide indoor location, complementing what was already possible with GPS, making the platform more complete.
+          </p>
+          <p>
+            In golang, we incorporate indoor gateways, vehicle trackers from different manufacturers, radio technologies, mototrbo, tetra with open protocol and also integrated to the manufacturer (Motorola), directly accessing the master system, without depending on a physical radio to work.
+          </p>
+          <p>
+            I also raised all the support tools for the smooth functioning of the development cycle. The choice for GitLab was for allowing us a very good cycle from version control to CI / CD. Monitoring tools (prometheus + grafana), cloud management (Rancher), Api-gateways (Ambassador), Service Mesh (Istio), etc.
           </p>
         `,
+        image    : 'img/timeline/ntopus-shoot.jpg',
         iconImage: 'img/timeline/kofre-icon.png',
       },
       {
